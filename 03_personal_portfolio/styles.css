@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 4px;
+    border-bottom: 2px solid red;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav > * {
+    border: 2px solid red;
+    border-radius: 20%;
+    padding: 4px;
+    font-size: 1.5em;
+    margin: 1em;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.directory {
+    margin-left: 4px;
+    padding-right: 4px;
+    border-right: 2px solid red;
+}
+
+.main-section {
+    margin-left: 2em;
+}
+
+footer {
+    border-top: 2px solid red;
+}
+
+footer > * {
+    margin-left: 15%;
+    margin-top: 0.25em;
+    margin-bottom: 0;
+}
+
+.links > * {
+    display: inline-block;
+}
+
+.links i {
+    font-size: 2em;
+}
+
+.copyright > * {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.copyright p {
+    margin-left: 0.5em;
+}
