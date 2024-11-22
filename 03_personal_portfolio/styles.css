@@ -1,13 +1,26 @@
+:root {
+    --text-default-color: #2E3440;
+    --link-hover-color: #434C5E;
+    --border-color: #4C566A;
+}
+
+body {
+    /* background-color: #90E0EF; */
+    background-color: #ECEFF4;
+    color: var(--text-default-color);
+}
+
 header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-bottom: 4px;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid var(--border-color);
 }
 
 header img {
     border-radius: 50%;
+    margin-right: 12px;
 }
 
 header nav {
@@ -15,12 +28,23 @@ header nav {
 }
 
 header nav > * {
-    border: 2px solid red;
+    border: 2px solid var(--border-color);
     border-radius: 20%;
     padding: 4px;
     font-size: 1.5em;
     margin: 1em;
+    color: var(--text-default-color);
     text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--link-hover-color);
+    background-color: var(--border-color);
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: var(--text-default-color);
 }
 
 main {
@@ -28,18 +52,81 @@ main {
     justify-content: flex-start;
 }
 
+h1 {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+p {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
 .directory {
     margin-left: 4px;
-    padding-right: 4px;
-    border-right: 2px solid red;
+    padding-right: 8px;
+    border-right: 2px solid var(--border-color);
+    min-width: 15%;
+}
+
+.directory a {
+    display: block;
+    padding-left: 10%;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: var(--text-default-color);
+}
+
+.directory a:hover {
+    color: var(--link-hover-color);
+    background-color: var(--border-color);
+    border-radius: 15%;
+}
+
+.directory a:visited {
+    text-decoration: none;
+    color: var(--text-default-color);
 }
 
 .main-section {
     margin-left: 2em;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    margin-left: 15%;
+}
+
+.form-section {
+    display: grid;
+    grid-template-columns: 5em 16em;
+    padding-bottom: 2%;
+}
+
+.form-section > input {
+    align-self: right;
+}
+
+.submit {
+    grid-column: 2;
+}
+
 footer {
-    border-top: 2px solid red;
+    border-top: 2px solid var(--border-color);
 }
 
 footer > * {
@@ -50,6 +137,10 @@ footer > * {
 
 .links > * {
     display: inline-block;
+}
+
+.links a {
+    font-size: 0.75em;
 }
 
 .links i {
