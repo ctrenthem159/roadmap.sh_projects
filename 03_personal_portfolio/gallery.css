@@ -32,6 +32,7 @@ div.gallery-photo{
   line-height:0px;
   height: auto;
   width: 20%;
+  min-width: 256px;
   float: left;
   text-align: center;
   -webkit-transition:all 0.5s ease;

@@ -25,6 +25,7 @@ header img {
 
 header nav {
     margin-left: auto;
+    margin-right: 5%;
 }
 
 header nav > * {
@@ -32,7 +33,7 @@ header nav > * {
     border-radius: 20%;
     padding: 4px;
     font-size: 1.5em;
-    margin: 1em;
+    margin: 4px;
     color: var(--text-default-color);
     text-decoration: none;
 }
@@ -155,4 +156,27 @@ footer > * {
 
 .copyright p {
     margin-left: 0.5em;
+}
+
+@media screen and (max-width: 1180px) {
+    header nav {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+
+    header nav > * {
+        margin: 4px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .directory {
+        min-width: min-content;
+        border-right: 0;
+        border-bottom: 2px solid var(--border-color);
+    }
 }
