@@ -13,5 +13,5 @@ These projects come from roadmap.sh
 [Roadmap.sh Project Page](https://roadmap.sh/projects/basic-html-website)
 
 ### Personal Portfolio
-![/03_personal_portfolio](02_basic_html_website/assets/sample2.png)
+![/03_personal_portfolio](03_personal_portfolio/assets/sample3.png)
 [Roadmap.sh Project Page](https://roadmap.sh/projects/portfolio-website)
