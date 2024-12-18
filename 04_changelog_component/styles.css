@@ -1,0 +1,25 @@
+:root {
+    --text-default-color: #2E3440;
+    --link-hover-color: #434C5E;
+    --border-color: #4C566A;
+}
+
+body {
+    background-color: #ECEFF4;
+    color: var(--text-default-color);
+}
+
+.entry {
+    display: flex;
+    margin: 1em 20% 1em;
+}
+
+.entry * {
+    border: solid red;
+    padding: 4px;
+    margin: 4px;
+}
+
+.entry p + p {
+    border-left: solid green;
+}

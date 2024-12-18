@@ -15,3 +15,7 @@ These projects come from roadmap.sh
 ### Personal Portfolio
 ![/03_personal_portfolio](03_personal_portfolio/assets/sample3.png)
 [Roadmap.sh Project Page](https://roadmap.sh/projects/portfolio-website)
+
+### Changelog Component
+![/04_changelog_component]()
+[Roadmap.sh Project Page](https://roadmap.sh/projects/changelog-component)
