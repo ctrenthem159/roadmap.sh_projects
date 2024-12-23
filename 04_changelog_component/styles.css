@@ -1,11 +1,11 @@
 :root {
-    --text-default-color: #2E3440;
-    --link-hover-color: #434C5E;
-    --border-color: #4C566A;
+    --text-default-color: #2e3440;
+    --link-hover-color: #434c5e;
+    --border-color: #4c566a;
 }
 
 body {
-    background-color: #ECEFF4;
+    background-color: #eceff4;
     color: var(--text-default-color);
 }
 

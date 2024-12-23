@@ -10,7 +10,7 @@ main {
 
 .contact-info {
     margin-top: 3em;
-    line-height:0.5em;
+    line-height: 0.5em;
 }
 
 .about-me {
@@ -36,7 +36,8 @@ main {
     margin-left: 4px;
 }
 
-p, ul {
+p,
+ul {
     font-size: 1em;
     margin: 8px;
     margin-left: 3em;
@@ -57,7 +58,7 @@ address p {
     border-top: 2px solid rgb(37, 74, 196);
 }
 
-.links a{
+.links a {
     margin-left: 2em;
     font-size: 2em;
     color: black;

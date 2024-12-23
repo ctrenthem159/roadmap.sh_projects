@@ -6,10 +6,10 @@ In this project you are required to create a simple component for a website that
 
 ## Useful Resources & References
 
-- [Roadmap.sh project page](https://roadmap.sh/projects/changelog-component)
-- [web.dev (HTML & CSS Tutorials)](https://web.dev/)
-- [Mozilla Developer Network (web language documentation)](https://developer.mozilla.org/en-US/)
-- [CSS Gallery Template by jdias](https://codepen.io/jmldias/pen/DjYdor) - used for the Projects page
-- [Nord color theme](https://www.nordtheme.com/)
+-   [Roadmap.sh project page](https://roadmap.sh/projects/changelog-component)
+-   [web.dev (HTML & CSS Tutorials)](https://web.dev/)
+-   [Mozilla Developer Network (web language documentation)](https://developer.mozilla.org/en-US/)
+-   [CSS Gallery Template by jdias](https://codepen.io/jmldias/pen/DjYdor) - used for the Projects page
+-   [Nord color theme](https://www.nordtheme.com/)
 
 ## Known Issues (Please open an issue to help!)
