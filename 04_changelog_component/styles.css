@@ -1,29 +1,35 @@
 :root {
-    --text-default-color: #2e3440;
-    --link-hover-color: #434c5e;
-    --border-color: #4c566a;
+    --text-color: #000;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #eceff4;
-    color: var(--text-default-color);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 header {
-    justify-items: center;
+    width: 100%;
+    text-align: center;
 }
 
 .timeline {
     position: relative;
-    margin: 20px 0;
-    padding: 0;
+    margin: 0;
+    padding: 20px;
 }
 
-.timeline::before {
-    content: "";
+.timeline:before {
+    content: '';
     position: absolute;
     width: 2px;
-    background-color: var(--border-color);
+    background-color: var(--text-color);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -33,24 +39,39 @@ header {
 .entry {
     margin-bottom: 20px;
     position: relative;
-    width: calc(50%+1px);
+    width: calc(50% + 1px);
     padding-right: 20px;
     text-align: right;
 }
 
+.entry .date {
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.entry .description {
+    display: inline-block;
+}
+
 .entry:nth-child(even) {
-    left: calc(50%-1px);
+    left: calc(50% - 1px);
     text-align: left;
-    padding-left: 30px;
+    padding-left: 20px;
     padding-right: 0;
 }
 
-.marker {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    background-color: #333;
+.entry:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: -4px;
+    background-color: var(--text-color);
     border-radius: 50%;
-    margin-right: 20px;
-    position: relative;
+    top: 10px;
+}
+
+.entry:nth-child(even):before {
+    left: -4px;
+    right: auto;
 }
