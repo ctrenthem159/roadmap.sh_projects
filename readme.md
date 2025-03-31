@@ -21,7 +21,7 @@ These projects come from roadmap.sh
 
 ### Changelog Component
 
-![/04_changelog_component]()
+![/04_changelog_component](04_changelog_component\assets\project4.png)
 [Roadmap.sh Project Page](https://roadmap.sh/projects/changelog-component)
 
 ### Testimonial Cards

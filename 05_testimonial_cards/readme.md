@@ -1,8 +1,10 @@
 # Changelog Component
 
-In this project you are required to create a simple component for a website that displays a changelog. A changelog is a log or record of all notable changes made to a project or software. It is often used to keep users informed about the latest updates and improvements.
+In this project, you are required to create a bunch of testimonial cards. Testimonials are quotes or statements from satisfied customers or users, often used on websites to build credibility and trust.
 
-![sample screenshot](assets/project4.png)
+The goal of this project is to teach you about positioning and layout in CSS. Below is a rough mockup showing some testimonial cards. Each card is designed to help you understand different layout and positioning techniques.
+
+![sample screenshot](assets/)
 
 ## Useful Resources & References
 
